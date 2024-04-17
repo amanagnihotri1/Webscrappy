@@ -27,7 +27,7 @@ def connectDB():
                      receipeName VARCHAR(255),
                     receipeUrl VARCHAR(255),
                    receipeImageUrl VARCHAR(255))"""
-      dvd=comm.execute(createQuery)
+      comm.execute(createQuery)
       conn.commit()
       print("task completed")
       insertCommand=sql.SQL("INSERT INTO FoodData(receipeName,receipeUrl,receipeImageUrl) VALUES (%s,%s,%s)")
