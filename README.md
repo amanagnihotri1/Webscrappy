@@ -26,23 +26,26 @@ Before running this project, ensure you have the following installed:
 - ### PostgreSQL 
     PostgreSQL is a powerful, open source object-relational database system with over 35 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance.
 ## Run Locally
-Install all the prerequisites first and then clone the project
 
-```bash
-  git clone https://github.com/amanagnihotri1/Webscrappy
-```
+1. Install all the prerequisites first
 
-Go to the project directory
+2. Go to the project directory
 
 ```bash
   cd your_project_folder_name
 ```
-Install required packages to achieve scrapping
+3. Clone the project
+```bash
+  git clone https://github.com/amanagnihotri1/Webscrappy
+```
+
+4. Install required packages to achieve scrapping
 
 ```bash
   pip install beautifulsoup4 pyscopg2 requests
 ```
 **Setup Postgresql credentials**
+
 ```bash
 dbname="your_db_name",
 user="your_user_name",
@@ -50,12 +53,12 @@ password="your_password",
 host="your_hostname",
 port="your_portname",
 ```
-1.Run this command to initiate crwaling and to create table
+Run this command to initiate crwaling and to create table
 
 ```bash
 python main.py
 ```
-2. Run this command to generate CSV file for data present in Table
+Run this command to generate CSV file for data present in Table
 
 ```bash
 python csv_generator.py
