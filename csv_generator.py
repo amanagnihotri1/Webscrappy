@@ -1,6 +1,6 @@
 import psycopg2 # type: ignore
 import csv
-def createCSV():
+def createCSV(): #functions to create CSV file
      conn = psycopg2.connect(
     dbname="postgres",
     user="postgres",
