@@ -1,6 +1,6 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## **Webscrappy**
+# **Webscrappy**
 This is a simple web scraper project built with Python using BeautifulSoup for web scraping, Requests for making HTTP requests, PostgreSQL for database storage, and CSV for data export contains simple functions to execute one afte the ohter to first fetch data and then create CSV file by fetching data from Postgres Table.
 
 
