@@ -41,8 +41,8 @@ Install required packages to achieve scrapping
 
 ```bash
   pip install beautifulsoup4 pyscopg2 requests
-```  
->A Blockqoute **Setup Postgresql credentials**
+```
+**Setup Postgresql credentials**
 ```bash
 dbname="your_db_name",
 user="your_user_name",
