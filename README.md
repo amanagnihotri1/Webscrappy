@@ -63,12 +63,9 @@ python csv_generator.py
 ```
 
 3. A CSV file will appear in working directory with name **output.csv**
-Screenshots:
-
-
 
 ## Screenshots
-
+ #### Generated CSV file
 ![screenzy-1713336091558](https://github.com/amanagnihotri1/Webscrappy/assets/69078309/2d66a8ef-4bed-459a-b52b-e51e582ac91b)
 
 
