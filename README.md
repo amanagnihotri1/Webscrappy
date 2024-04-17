@@ -29,13 +29,13 @@ Before running this project, ensure you have the following installed:
 Install all the prerequisites first and then clone the project
 
 ```bash
-  git clone [link](https://link-to-project)
+  git clone [link](https://github.com/amanagnihotri1/Webscrappy)
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd your_project_folder_name
 ```
 Install required packages to achieve scrapping
 
