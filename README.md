@@ -25,7 +25,7 @@ Before running this project, ensure you have the following installed:
     Psycopg is PostgreSQL database adapter for Python. It's main features are the complete implementation of the Python DB API 2.0 specification and the thread safety
 - ### PostgreSQL 
     PostgreSQL is a powerful, open source object-relational database system with over 35 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance.
-## Run Locally
+## Steps to run Locally
 
 1. Install all the prerequisites first
 
