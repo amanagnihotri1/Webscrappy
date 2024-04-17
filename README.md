@@ -29,7 +29,7 @@ Before running this project, ensure you have the following installed:
 Install all the prerequisites first and then clone the project
 
 ```bash
-  git clone [link](https://github.com/amanagnihotri1/Webscrappy)
+  git clone https://github.com/amanagnihotri1/Webscrappy
 ```
 
 Go to the project directory
