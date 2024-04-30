@@ -3,7 +3,7 @@ import psycopg2 # type: ignore
 import csv
 from psycopg2 import sql
 from bs4 import BeautifulSoup # type: ignore
-responseData = requests.get("https://food-guide.canada.ca/en/recipes")
+responseData = requests.get("https://food-guide.canada.ca/en/recipes") # This line makes call to the page for which data we need
 soup = BeautifulSoup(responseData.text,"html.parser")
 selectedElements = soup.find_all(class_="views-field-field-featured-image")
 mainData=[]  #To Store Data in list
