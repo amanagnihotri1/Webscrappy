@@ -16,7 +16,6 @@ def createCSV(): #functions to create CSV file
      cur.execute("select * from FoodData")
 # Fetch all rows
      rows = cur.fetchall()
-     print(rows)
 # Define the path for the CSV file
      csv_file_path = "output.csv"
 
@@ -32,6 +31,5 @@ def createCSV(): #functions to create CSV file
 # Close the cursor and connection
      cur.close()
      conn.close()
-
-print("CSV file created successfully!")   
+  
 createCSV()
