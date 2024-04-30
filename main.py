@@ -21,7 +21,6 @@ def connectDB():
                 host="localhost",
                 port="5432"
             )
-      print("Connected to PostgreSQL database!")
       comm = conn.cursor()
       createQuery="""CREATE Table IF NOT EXISTS FoodData(
                      receipeName VARCHAR(255),
@@ -29,15 +28,12 @@ def connectDB():
                    receipeImageUrl VARCHAR(255))"""
       comm.execute(createQuery)
       conn.commit()
-      print("task completed")
-      insertCommand=sql.SQL("INSERT INTO FoodData(receipeName,receipeUrl,receipeImageUrl) VALUES (%s,%s,%s)")
+      insertCommand=sql.SQL("INSERT INTO FoodData(receipeName,receipeUrl,receipeImageUrl) VALUES (%s,%s,%s)") #command to insert data into Database
       for item in mainData:
             comm.execute(insertCommand,item)
             conn.commit()
       d=comm.execute("SELECT * FROM FoodData")
-      print(d)
       allData=comm.fetchall()
-      print(allData)
       comm.close()     
   except (Exception,psycopg2.Error) as error: # to catch any error
        print("Error while connecting to PostgreSQL database:", error)
